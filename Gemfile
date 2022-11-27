@@ -47,6 +47,8 @@ gem 'bulma-rails', '~> 0.9.4'
 
 gem 'simple_form', '~> 5.1'
 
+gem 'importmap-rails'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -81,3 +83,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "hotwire-rails", "~> 0.1.3"
